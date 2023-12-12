@@ -3,4 +3,5 @@ HST Exoplanet Plots
 
 This repository holds scripts to grab data from the HST Approved Program's list (https://www.stsci.edu/hst/proposing/approved-programs), obtains targets and instrument/modes, and plots various statistics to understand proposal pressure on exoplanet science on HST.
 
-This was the dream, but it is basically impossible (tried my best in `utils.py`). Decided to manually create a table in the table.txt.
+The results are on `table.csv` --- this manually compiles programs from the PDFs (tried my best to automate some of it in `utils.py` --- but early Cycles have different PDF formats). Plots are on the `*.py` files.
+
